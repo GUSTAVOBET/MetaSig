@@ -1,0 +1,72 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+/* Estilos do carrinho e produtos */
+.itens-carrinho {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.produto {
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.produto img {
+    width: 100px; /* Defina o tamanho desejado para as imagens */
+    height: auto;
+}
+
+.valor {
+    font-weight: bold;
+}
+
+.quantidade {
+    width: 50px; /* Defina o tamanho desejado para o input de quantidade */
+}
+
+/* Estilos do cupom de desconto */
+#cupomDesconto {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#cupomDesconto input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+#btnCupom {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#btnCupom:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos do total do carrinho */
+#totalCarrinho {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#valorTotal {
+    font-size: 1.2em;
+    color: green;
+}

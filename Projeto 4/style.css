@@ -1,0 +1,180 @@
+/* Reset de estilos padrão */
+body,
+h1,
+h2,
+p,
+button {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilização do layout */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.titulo {
+    margin-bottom: 20px;
+}
+
+/* Estilização dos jogadores */
+.jogadores {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.jogador {
+    text-align: center;
+    background-color: #f9f9f9;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.subtitulo {
+    font-style: italic;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+/* Estilização dos botões de jogada */
+.jogada {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.jogada:hover {
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(19, 1, 1, 0.2);
+}
+
+.selected {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgba(3, 0, 0, 0.2);
+}
+
+/* Estilização do botão de jogar */
+.botaojogar {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.botaojogadaAleatoria {
+  padding: 15px 30px;
+  font-size: 18px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  align-items: center;
+}
+
+.resultado {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 20px;
+}
+
+.vencedor {
+  color: green;
+  font-weight: bold;
+}
+
+.perdedor {
+  color: red;
+  font-weight: bold;
+}
+
+.empate {
+  color: blue;
+  font-weight: bold;
+}
+
+.move.selected {
+    background-color: #050505;
+    color: #fff;
+    font-weight: bold;
+}
+
+.players {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-bottom: 40px;
+}
+
+.player {
+  text-align: center;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.subtitulo {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.move {
+  padding: 10px 20px;
+  margin: 5px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.move:hover {
+  background-color: #ddd;
+}
+
+.move.selected {
+  background-color: #050503;
+  color: #fff;
+  font-weight: bold;
+}
+h2 {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+  text-align: justify;
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+  color: green;
+  font-size: 24px;
+}
+
+h4 {
+  color: red;
+  font-size: 24px;
+}
+

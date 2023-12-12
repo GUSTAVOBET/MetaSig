@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Seu Carrinho de Compras</h1>
+    <td class="itens-carrinho">
+    <div class="produto">
+        <h1>Produto</h1>
+        <p class="valor">Valor: <span id="valor" class="valor">R$ 10.00</span></p>
+        <label for="quantidade1" class="valor">Quantidade:</label>
+        <input type="number" id="quantidade1" class="quantidade" name="quantidade" min="1" value="1">
+    </div>
+    </td>
+    <div id="cupomDesconto">
+        <label for="cupom">Cupom de Desconto:</label>
+        <input type="text" id="cupom">
+        <button id="btnCupom">Aplicar</button>
+    </div>
+
+    <div id="totalCarrinho">
+        <h5>Valor do Carrinho: <span id="valor">R$ 0.00</span></h5>
+        <h4>Total de Desconto: <span id="cupom">R$0.00</span></h4>
+        <h3>Valor Total: <span id="valorTotal">R$ 0.00</span></h3>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

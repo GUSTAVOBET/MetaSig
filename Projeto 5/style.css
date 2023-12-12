@@ -1,0 +1,53 @@
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 40px;
+}
+
+h1 {
+  text-align: center;
+}
+td {
+  text-align: center; /* Centraliza horizontalmente */
+  vertical-align: middle; /* Centraliza verticalmente */
+}
+/* Estilos para os produtos */
+.produto {
+  max-width: 250px;
+  height: 250px; 
+  border: 1px solid #ccc;
+  padding: 50px;
+  margin: 10px;
+  text-align: center;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.produto img {
+  height: 100px; /* Defina uma altura fixa para todas as imagens */
+  width: auto; /* Permite que a largura seja ajustada proporcionalmente */
+  display: block; /* Garante que a imagem se comporte como um bloco */
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+.price {
+  font-weight: bold;
+}
+.button {
+  color: rgb(253, 253, 253);
+  margin-top: auto;
+  background-color: black;
+}
+
+.button-carrinho {
+  position: fixed;
+  top: 20px; /* Ajuste a distância do topo conforme necessário */
+  right: 20px; /* Ajuste a distância da direita conforme necessário */
+  padding: 10px 20px;
+  background-color: #555;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+}

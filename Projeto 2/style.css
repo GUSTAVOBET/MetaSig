@@ -1,0 +1,28 @@
+   body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #c7c3c3;
+      padding: 250px;
+    }
+.subtitulo{
+  color: black;
+  font-size: 30px;  
+}
+    .contador {
+      color: green;
+      font-size: 60px;
+    }
+
+    #counter {
+        font-size: 24px;
+        margin: 20px 0;
+      }
+  
+      button {
+        color:rgb(243, 243, 243);
+        font-size: 16px;
+        padding: 10px;
+        margin: 5px;
+        cursor: pointer;
+        background-color: #555555;
+      }

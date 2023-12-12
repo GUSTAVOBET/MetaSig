@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto 4 – JOKEMPO</title>
+</head>
+<body>
+    <h1 class="titulo">JOKENPO</h1>
+    <h2>O jogo de Pedra, Papel e Tesoura é simples e divertido! Dois jogadores escolhem entre três opções: pedra, papel ou tesoura. O resultado é determinado da seguinte maneira:
+
+        Pedra vence a tesoura (Pedra quebra a Tesoura).
+        Tesoura vence o papel (Tesoura corta o Papel).
+        Papel vence a pedra (Papel embrulha a Pedra).
+        Se ambos os jogadores escolherem a mesma opção, é um empate.
+        
+        Os jogadores fazem suas escolhas simultaneamente e, em seguida, o resultado é anunciado com base nas regras acima. O jogo continua até que os jogadores decidam parar ou determinem um número específico de rodadas. É um jogo rápido, onde a estratégia e a antecipação das escolhas do oponente podem fazer a diferença!</h2>
+    <div class="jogadores">
+        <div class="jogador" id="jogador1">
+            <h3 class="titulo">Jogador 01</h2>
+            <p class="subtitulo">Ecolha sua jogada:</p>
+            <div class="movimentos">
+                <button class="jogada" jogador="1" movimento="Papel">Papel</button>
+                <button class="jogada" jogador="1" movimento="Tesoura">Tesoura</button>
+                <button class="jogada" jogador="1" movimento="Pedra">Pedra</button>
+            </div>
+        </div>
+        <div class="jogador" id="jogador2">
+            <h4 class="titulo">Jogador 02</h2>
+            <p class="subtitulo">Escolha sua jogada:</p>
+            <div class="movimentos">
+                <button class="jogada" jogador="2" movimento="Papel">Papel</button>
+                <button class="jogada" jogador="2" movimento="Tesoura">Tesoura</button>
+                <button class="jogada" jogador="2" movimento="Pedra">Pedra</button>
+            </div>
+        </div>
+    </div>
+    <button type="button" class="botaojogar">Jogar</button>
+    <button type="button" class="botaojogadaAleatoria">Jogada Aleatória</button>
+    <div class="resultado">
+        <p class="vencedor"></p>
+        <p class="perdedor"></p>
+        <p class="empate"></p>
+    </div>
+    <script src="javascript.js"></script>
+</body>
+</html>
